@@ -1,8 +1,8 @@
 class Project
-    attr_reader :name
+    attr_reader :title
   attr_accessor :mood
-  def initialize(name)
-    @name=name
+  def initialize(title)
+    @title=title
     @mood='nervous'
   end
   
