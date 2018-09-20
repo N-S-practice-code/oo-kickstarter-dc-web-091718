@@ -3,11 +3,12 @@ class Project
   attr_accessor :backers
   def initialize(title)
     @title=title
-    @mood='nervous'
+    @backers=[]
   end
   
   def add_backer(backer)
-    
+    @backers << backer
+    backer.
   end
   
 end
