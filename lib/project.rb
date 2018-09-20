@@ -6,4 +6,6 @@ class Project
     @mood='nervous'
   end
   
+  def add_backer
+  
 end
